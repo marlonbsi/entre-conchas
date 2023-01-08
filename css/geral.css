@@ -1,0 +1,457 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+figure{
+	color:white;
+	margin-top:1%;
+	padding-bottom: 5%;
+}
+
+/* ---------------------- */
+/*FORMATAÇÃO DA INDEX.PHP*/
+/* ---------------------- */
+	/*SECTION CABECALHO*/
+		#cab_menu{
+			width: 100%;
+			height: 50px;
+			position: absolute;
+			top: 0;
+			z-index: 5;
+			background-color: #000;
+			opacity: 0.65;
+		}
+		#expo_titulo{
+			max-height: 50px;
+			width: 35%;
+			float: left;
+		}
+		#expo_titulo p{
+			text-align: center;
+			font-size: 1.5em;
+			font-weight: 250;
+			margin-top: 10px;
+			padding-left: 50px;
+		}
+		#player{
+			z-index: 10;
+			width: 50%;
+			float: left;
+			margin-left: 30px;
+		}
+		#player audio{
+			max-height: 50px;
+			width: 90%;
+			opacity: 0.8;
+		}
+		#cab_btn{
+			width: 10%;
+			float: right;
+			max-height: 50px;
+		}
+		#btn_menu{
+			max-height: 50px;
+			float: right;
+			margin-right: 50%;
+		}
+		#cab_sl1{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			filter: brightness(80%);
+		}
+	/*FIM SECTION CABECALHO*/
+
+	/*SECTION ABOUT*/
+		#about{
+			background: url('../images/bg_medio.png');
+			background-repeat: repeat;
+		}
+		#titulo_ec{
+			width: 75%;
+			max-width: 400px;
+			margin: 15% auto auto 10%;
+		}
+		#titulo_linha{
+			width: 90%;
+			margin: -15% 0 0 -7%;
+			max-width: 400px;
+		}
+	/*FIM SECTION ABOUT*/
+
+	/*SECTION SAMBAQUIS*/
+		#sambaquis{
+			background: url('../images/bg_medio.png');
+			background-repeat: repeat;
+			min-height: 65vh;
+		}
+		#slidesSection, #slidesSection2{
+			width: 100%;
+		}
+		.slide_cj{ padding: 35px 20px 35px 15px; }
+		#slide_index{
+			margin-top: 10px;
+			padding-bottom: 10px;
+		}
+		#sambaquis_img{
+			width: 80%;
+			text-align: center;
+			margin:5% 10% 0% 10%;
+		}
+		#sambaquis img, #sambaquis figure{
+			align-content: center;
+			text-align: center;
+		}
+		.mySlides1 img, .mySlides2 img{
+			max-width: 100%;
+			max-height: 86vh;
+		}
+	/*FIM SECTION SAMBAQUIS*/
+
+	/*SECTION MAPA*/
+		#mapa{
+			width: 100%;
+			background: url('../images/bg_claro.png');
+			background-repeat: repeat;
+			margin: auto;
+			vertical-align: middle;
+		}
+		#mapa_img{
+			max-width: 92%;
+			float: left;
+		}
+		#mapa img{
+			max-width: 1400px;
+			width: 100%;
+			float: right;
+			cursor: pointer;
+		}
+		#lupa{
+			width: 8%;
+			float: left;
+			margin-top: 45%;
+		}
+		#lupa_img{
+			width: 90%;
+			cursor: pointer;
+		}
+		/* MODAL DO MAPA: Retirado do Youtube PSC aula 43*/
+			#janelaModal{
+				display: none;
+				position: fixed;
+				z-index: 1;
+				padding-top: 15px;
+				left: 0px;
+				top: 0px;
+				width: 100vw;
+				height: 100vh;
+				background-color: rgba(0, 0, 0, 0.8);
+				overflow: auto;
+				text-align: center;
+			}
+			#imgModal{
+				margin: auto;
+				display: block;
+				height: 98%;
+			}
+			#btnFechar{
+				position: absolute;
+				top: 15px;
+				right: 30px;
+				color: #fff;
+				font-size: 3em;
+				font-weight: bold;
+				cursor: pointer;
+			}
+		/*FIM DA MODAL DO MAPA*/
+	/*FIM SECTION MAPA*/
+/* ---------------------------- */
+/*FIM DA FORMATAÇÃO DA INDEX.PHP*/
+/* ---------------------------- */
+
+/* ------------------------- */
+/*FORMATAÇÃO DA html/menu.php*/
+/* ------------------------- */
+	/*SECTION MENU*/
+		#menu{ background-color: #eee; }
+		.botao_menu a:hover{ opacity: 0.7; }
+		#esqueleto{
+			position: relative;
+			left: 0;
+			right: 0;
+			vertical-align: bottom;
+		}
+		#esqueleto img{ width: 110%; }
+		#btn_diversidade{ max-width: 110%; }
+		#btn_cultura{ max-width: 110%; }
+		#btn_dinamicas{ max-width: 110%; }
+		#btn_imaginario{ max-width: 110%; }
+		#btn_sepultamentos{ max-width: 110%; }
+		#btn_sambaquis{ max-width: 110%; }
+		#btn_guaraguacu{ max-width: 110%; }
+		/*espaçamento menu*/
+		#menu .container{ padding-top:5%; }
+	/*FIM SECTION MENU*/
+/* -------------------------------- */
+/*FIM DA FORMATAÇÃO DA html/menu.php*/
+/* -------------------------------- */
+
+/* ---------------------------- */
+/*FORMATAÇÃO DA html/rodape.html*/
+/* ---------------------------- */
+	/*FOOTER*/
+		#pin{
+			vertical-align: top;
+			text-align: right;
+		}
+		.logos{
+			margin-top: 20%;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		#logo_mae{
+			position: absolute;
+			filter: brightness(0) invert(1);
+			vertical-align: bottom;
+			bottom: 0;
+		}
+		#img_mae_logo{ max-width: 100%; }
+		#logo_proec{
+			position: absolute;
+			filter: brightness(0) invert(1);
+			vertical-align: bottom;
+			bottom: 0;
+		}
+		#img_proec_logo{ max-width: 100%; }
+		#logoUFPR{
+			position: absolute;
+			filter: brightness(0) invert(1);
+			vertical-align: bottom;
+			bottom: 0;
+			text-align: center;
+		}
+		#imgUFPRLogo{
+			max-width: 74%;
+			float: right;
+			margin-right: 2%;
+		}
+	/*FIM FOOTER*/
+/* ----------------------------------- */
+/*FIM DA FORMATAÇÃO DA html/rodape.html*/
+/* ----------------------------------- */
+
+/***********FORMATAÇÃO DAS PÁGINAS SECUNDÁRIAS*************/
+
+/* ------------------------------------ */
+/*FORMATAÇÃO DA html/barra_superior.html*/
+/* ------------------------------------ */
+	#cabecalho2{
+		background: url('../images/bg_medio.png');
+		background-repeat: repeat;
+	}
+	#cab_menu_2{
+		width: 100%;
+		height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 5;
+		background-color: #000;
+	}
+	#expo_titulo_2{
+		max-height: 50px;
+		width: 70%;
+		float: left;
+	}
+	#expo_titulo_2 p{
+		text-align: left;
+		font-size: 1.5em;
+		font-weight: 250;
+		margin-top: 10px;
+		padding-left: 50px;
+	}
+	#cab_btn_2{
+		width: 10%;
+		float: right;
+		max-height: 50px;
+	}
+	#btn_menu_2{
+		max-height: 40px;
+		float: right;
+		margin-right: 50%;
+		margin-top: 2%;
+	}
+	#identificacao{
+		width: 100%;
+		max-height: 70vh;
+		background: url('../images/capa.png') no-repeat;
+		background-size: cover;
+		background-position: 50% -10%;
+	}
+	#identificacao p{
+		padding-top: 58vh;
+		padding-bottom: 4vh;
+		text-align: center;
+		font-size: 2.2em;
+		font-weight: 900;
+		color: #fff;
+		line-height: 1.5em;
+	}
+/* ------------------------------------------- */
+/*FIM DA FORMATAÇÃO DA html/barra_superior.html*/
+/* ------------------------------------------- */
+	/*GERAL*/
+		.cja{
+			background-color: #000;
+			min-height: 65%;
+		}
+		.cjb{
+			background: url('../images/bg_medio.png');
+			background-repeat: repeat;
+			min-height: 65%;
+		}
+		.cjb strong, .cja strong{ font-size: 1.3em; }
+		.slides_conjuntos{
+			margin-top: 2%;
+			padding-bottom: 2%;
+		}
+		#subtitulo2{
+			background: url('../images/fundo_conchas.png') no-repeat center;
+			background-size: cover;
+			min-height: 50vh;
+		}
+		#subtitulo2 .col-md-12{
+			margin-top: 5vh;
+			margin-bottom: 5vh;
+		}
+		.player_cj{
+			z-index: 10;
+			width: 100%;
+			margin: auto;
+			margin-top: 30px;
+		}
+		.audio_cj{ filter: contrast(100%) invert(100%) brightness(1.9); }
+		.player_cj audio{
+			max-height: 30px;
+			width: 100%;
+			margin: auto;
+		}
+		.notaP{ font-size: 0.8em; }
+	/*FIM GERAL*/
+
+	/*INSTRUMENTOS*/
+		#instrumentos{
+			background: url('../images/bg_medio.png');
+			background-repeat: repeat;
+			min-height: 65vh;
+		}
+		#instrumentos_img{
+			width: 80%;
+			text-align: center;
+			margin:5% 10% 5% 10%;
+		}
+		#instrumentos img, #instrumentos figure{
+			align-content: center;
+			text-align: center;
+		}
+		#instrumentos_01{ width: 100%; }
+		#txt_instrumentos{ padding: 50px 40px 0 0;	}
+	/*FIM INSTRUMENTOS*/
+
+	/*SEPULTAMENTOS*/
+		#figsep{ padding-bottom: 0%; }
+	/*FIM SEPULTAMENTOS*/
+
+	/*DINAMICAS SOCIAIS*/
+		.cja iframe, #instrumentos iframe{ margin: 5% 15% 5% 15%; }
+		#indios{
+			background: url('../images/indios_fundo.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		#ilustracao{
+			text-align:center;
+			vertical-align: middle;
+		}
+		#indios_il{
+			width: 70%;
+			margin: 0 0 0 0;
+			padding: 10% 0px 0% 0px;
+		}
+		#videoDinamicas, #videoSepultamentos{
+			margin: auto;
+			margin-top: 8%;
+			padding-bottom: 5%;
+			text-align: center;
+			width: 80%;
+			min-height: 460px;
+		}
+	/*FIM DINAMICAS SOCIAIS*/
+	/*BIBLIOGRAFIA*/
+		#tituloCreditos{ text-align: center; }
+		.txtCreditos, .txtEquipe{ padding-bottom: 60px; }
+		.txtCreditos p{
+			font-size: 0.9em;
+			line-height: 1.2em;
+		}
+		.txtEquipe p{
+			font-size: 0.9em;
+			line-height: 2em;
+		}
+	/*FIM BIBLIOGRAFIA*/
+/***********FIM FORMATAÇÃO DAS PÁGINAS SECUNDÁRIAS*************/
+
+/***** TIMER *****/
+#indiosTimer{
+	background: url('../images/bg_medio.png');
+	background-repeat: repeat;
+}
+	#tituloECTimer{
+		width: 45%;
+		margin: auto;
+	}
+	#timer{
+		width: 100%;
+		margin: auto;
+		margin-top: 2%;
+		text-align: center;
+		font-size: 3em;
+		line-height: 1.5em;
+	}
+	.expoVirtual{
+		width: 60%;
+		margin: auto;
+		margin-top: 3%;
+		margin-bottom: 1.5%;
+		text-align: center;
+		font-size: 1.7em;
+	}
+	#faltam{
+		width: 60%;
+		margin: auto;
+		margin-top: 5%;
+		text-align: center;
+		font-size: 1.7em;
+	}
+	#menuTimer{
+		background: url('../images/bg_medio.png');
+		background-repeat: repeat;
+	}
+	#esqueletoTimer img{ width: 100%; }
+/***** FIM TIMER *****/
+
+/*****CLASSES EM DESUSO AGUARDANDO*****/
+	#concha_divisa{
+		text-align:center;
+		vertical-align: middle;
+		margin-top: -100px;
+		padding-bottom: 50px;
+	}
+	.espaco_top{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.espaco_bottom{
+		width: 100%;
+		padding-bottom: 100px;
+	}
+/*****FIM DAS CLASSES EM DESUSO AGUARDANDO*****/
