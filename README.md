@@ -1,2 +1,4 @@
 # entre-conchas
-Virtual exhibition developed for the Museum of Archeology and Ethnology of the Federal University of Parana
+Virtual exhibition of the Archeology and Ethnology Museum of the Federal University of Parana, developed during the COVID-19 pandemic period. The goal was to keep the university's exhibitions active for its visitors.
+## Technologies:
+`HTML`, `CSS`, `PHP` and `JavaScript`
